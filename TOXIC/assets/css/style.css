@@ -1,0 +1,226 @@
+body{
+    background-color: grey;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #555;
+}
+
+h2{
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1{
+        animation-duration: 2s;
+        animation-name: slidein;
+        animation-iteration-count: 1;
+        animation-direction: alternate;
+}
+    @keyframes slidein{
+    from{
+        translate: 150vw 0;
+        scale: 200% 1;
+    }    
+    to{
+        translate: 0 0 0;
+        scale: 100%;
+    }
+}
+.topnav{
+    text-size-adjust: 50px;
+    background: rgb(49, 42, 42);
+    overflow: hidden;
+    border: 3px solid black;
+    border radius:20px;
+    text colour:grey;
+}
+.topnav a{
+    float: left;
+    font-colour:rgb(161, 87, 87);
+    background: rgb(159, 127, 127);
+    text-align: center;
+    padding: 10px;
+    font-size: large;
+    text-color:black
+    border: 3px;
+    border-radius: 20px;
+}
+.topnav a:hover{
+    color: rgb(126, 83, 83);
+    background: black;
+}
+footer{
+    text-align: center;
+    background-color: bisque;
+}
+header{
+    background-color: rgb(48, 35, 21);
+    font-size: xx-large;
+    text-align: center;
+    text-decoration-color: blueviolet;
+}
+h4{
+    background-color: azure;
+}
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(75, 147, 42, 0.1);
+    overflow: hidden;
+    max-width: 350px;
+    margin: 16px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    margin-left: 560px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.card-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.card-body {
+    padding: 16px;
+}
+.card-title {
+    font-size: 1.5em;
+    margin-bottom: 12px;
+    color: #333;
+    text-align: center;
+}
+.card-text {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.5;
+}
+.card-button {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.card-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+img{
+    text-align: center;
+    margin-left: 150;
+}
+.row:after{
+    display: table;
+    clear: both;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+textarea {
+    resize: vertical;
+}
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 8px;
+}
+.form-group {
+    margin-bottom: 12px;
+}
+.form-group:last-of-type {
+    margin-bottom: 0;
+}
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+h5{
+    background-color: darkgray;
+}
+label[for="name"] {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin-right: 10px;
+}
+
+/* Style for the name input field */
+input#name {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+    transition: border-color 0.3s ease;
+}
+
+/* Change border color on focus */
+input#name:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+/* Style for the form itself */
+form {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.qqq{
+    text-align: center;
+    color: #007BFF;
+}
